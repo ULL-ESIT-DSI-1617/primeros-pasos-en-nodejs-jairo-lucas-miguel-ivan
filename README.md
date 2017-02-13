@@ -5,7 +5,7 @@
 ```shell
 cd ~/code
 
-git clone https://github.com/enten/gitbook-boilerplate.git awesome-project
+git clone https://github.com/ULL-ESIT-DSI-1617/primeros-pasos-en-nodejs-jairo-lucas-miguel-ivan.git awesome-project
 
 cd awesome-project
 

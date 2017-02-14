@@ -1,19 +1,5 @@
-# Book Title
+# Tutorial: Tareas Iniciales DSI
 
-> Book introduction here.
+## Introducción
 
-## Live Demo
-
-[Check demo!](http://my-user.github.io/my-repo)
-
-## Background
-
-> [gitbook](http://www.gitbook.io) is used to generate github pages.
-
-## Contributing
-
-1. Create Issue
-2. Fork and PR
-3. paco
-4. marta
-5. teresa
+![gif](gif/video.GIF)

@@ -21,3 +21,10 @@ gulp.task('deploy',shell.task([
 ]));
 
 
+gulp.task('serve',shell.task([
+   'gitbook serve'
+]));
+   
+
+
+gulp.task('default', [ 'deploy','build' ]);

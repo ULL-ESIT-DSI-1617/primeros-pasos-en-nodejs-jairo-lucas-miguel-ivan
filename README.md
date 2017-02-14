@@ -1,27 +1,29 @@
-# GitBook Boilerplate
+# Gitbook
 
-# Installation
+## Tutorial Tareas Iniciales con el uso de Gitbook
 
-```shell
-cd ~/code
 
-git clone https://github.com/ULL-ESIT-DSI-1617/primeros-pasos-en-nodejs-jairo-lucas-miguel-ivan.git awesome-project
+### Introducción
 
-cd awesome-project
+En esta práctica se ha realizado un tutorial en Gitbook sobre diferentes herramientas que serán necesarias
+en el transcurso de la asignatura de Desarrollo de Sistemas Informáticos.
 
-rm -fr .git
+A continuación se muestra un video resumen de los diferentes capitulos de los que dispone el libro:
 
-vi package.json
-# edit repository.url and repository.wiki
+![gif](txt/gif/video.GIF)
 
-git remote add origin <url>
 
-npm run build
-# or
-# npm run generate-gitbook && npm run generate-wiki
+## Enlaces
 
-npm run deploy
-# or
-# npm run deploy-gitbook && npm run deploy-wiki
-```
-__Important__: Wiki must be created on Github
+* [Enlace a Gh-pages](https://ull-esit-dsi-1617.github.io/tareas-iniciales-jairo-lucas-ivan/)
+* [Enlace a Gitbook](https://www.gitbook.com/book/alu0100785265/tarea-inicial/details)
+* [Enlace a instrucciones de la práctica](https://casianorodriguezleon.gitbooks.io/ull-esit-1617/practicas/practicatareasiniciales.html)
+* [Enlace a repositorio de la práctica](https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-jairo-lucas-ivan.git)
+
+
+## Páginas personales
+
+* [Iván González Aguiar](https://ivan-ga.github.io/)
+* [Miguel Parra Esquivel](https://alu0100200393.github.io/)
+* [Jairo González Lemus](https://alu0100813272.github.io/)
+* [José Lucas Ruiz Glez](https://alu0100785265.github.io/)

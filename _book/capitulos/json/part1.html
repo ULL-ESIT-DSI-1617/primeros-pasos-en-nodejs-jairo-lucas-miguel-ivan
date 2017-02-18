@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>Utilización · GitBook</title>
+        <title>Json · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="part3.html" />
+    <link rel="next" href="part1.html" />
     
     
-    <link rel="prev" href="part1.html" />
+    <link rel="prev" href="../node_js/part3.html" />
     
 
     </head>
@@ -102,9 +102,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="part1.html">
+        <li class="chapter " data-level="1.2" data-path="../gitbook/part1.html">
             
-                <a href="part1.html">
+                <a href="../gitbook/part1.html">
             
                     
                     GitBook
@@ -116,9 +116,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="part1.html">
+        <li class="chapter " data-level="1.2.1" data-path="../gitbook/part1.html">
             
-                <a href="part1.html">
+                <a href="../gitbook/part1.html">
             
                     
                     ¿Qué es?
@@ -129,9 +129,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.2" data-path="part2.html">
+        <li class="chapter " data-level="1.2.2" data-path="../gitbook/part2.html">
             
-                <a href="part2.html">
+                <a href="../gitbook/part2.html">
             
                     
                     Utilización
@@ -142,9 +142,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="part3.html">
+        <li class="chapter " data-level="1.2.3" data-path="../gitbook/part3.html">
             
-                <a href="part3.html">
+                <a href="../gitbook/part3.html">
             
                     
                     Markdown
@@ -353,9 +353,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="../json/part1.html">
+        <li class="chapter active" data-level="1.7" data-path="part1.html">
             
-                <a href="../json/part1.html">
+                <a href="part1.html">
             
                     
                     Json
@@ -367,9 +367,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.7.1" data-path="../json/part1.html">
+        <li class="chapter active" data-level="1.7.1" data-path="part1.html">
             
-                <a href="../json/part1.html">
+                <a href="part1.html">
             
                     
                     ¿Qué es un Json?
@@ -380,9 +380,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.2" data-path="../json/part2.html">
+        <li class="chapter " data-level="1.7.2" data-path="part2.html">
             
-                <a href="../json/part2.html">
+                <a href="part2.html">
             
                     
                     Utilizacin en el github
@@ -393,7 +393,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.3" data-path="../json/part3.md">
+        <li class="chapter " data-level="1.7.3" data-path="part3.md">
             
                 <span>
             
@@ -441,7 +441,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../.." >Utilización</a>
+        <a href="../.." >Json</a>
     </h1>
 </div>
 
@@ -456,17 +456,58 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="registro">Registro</h2>
-<p>Para comenzar a usar GitBook antes debemos registrarnos en su <a href="www.gitbook.org">p&#xE1;gina web</a>.</p>
-<p>Una vez ah&#xED;, rellenamos el formulario de registro que aparecer&#xE1; en la pantalla de inicio:</p>
-<p><img src="../../imagenes/registro-git-book.png" alt=""></p>
-<p>Deber&#xE1;s rellenar el formulario con la siguiente informaci&#xF3;n:</p>
+                                <h2 id="json">Json</h2>
+<h3 id="&#xBF;-qu&#xE9;-es-un-json-">&#xBF; Qu&#xE9; es un Json ?</h3>
+<blockquote>
 <ul>
-<li>Nombre de usuario</li>
-<li>Correo electr&#xF3;nico</li>
-<li>Contrase&#xF1;a</li>
+<li>JSON es un formato est&#xE1;ndar para datos.</li>
+<li>Destaca por ser ligero y  r&#xE1;pido (por tanto muy &#xFA;til para desarrollos web).</li>
+<li>Los datos en formato JSON pueden ser utilizados por pr&#xE1;cticamente todos los lenguajes de programaci&#xF3;n (como Java, C#, C, C++, PHP, JavaScript, Python, etc.). </li>
+<li>Una herramienta online para comprobar la sintaxis de estoys archivos ses <a href="http://jsonviewer.stack.hu/" target="_blank">http://jsonviewer.stack.hu/</a></li>
+<li>Los archivos JSON son simples archivos de texto con extensi&#xF3;n json. <pre><code class="lang-json">{
+<span class="hljs-string">&quot;responsable&quot;</span>: {
+  <span class="hljs-string">&quot;Nombre&quot;</span>: <span class="hljs-string">&quot;Juan&quot;</span>,
+  <span class="hljs-string">&quot;Edad&quot;</span>: <span class="hljs-number">28</span>,
+  <span class="hljs-string">&quot;Aficiones&quot;</span>: [
+    <span class="hljs-string">&quot;M&#xFA;sica&quot;</span>,
+    <span class="hljs-string">&quot;Cine&quot;</span>,
+    <span class="hljs-string">&quot;Tenis&quot;</span>
+  ],
+  <span class="hljs-string">&quot;Residencia&quot;</span>: <span class="hljs-string">&quot;Madrid&quot;</span>
+},
+<span class="hljs-string">&quot;empleados&quot;</span>: [
+  {
+    <span class="hljs-string">&quot;Nombre&quot;</span>: <span class="hljs-string">&quot;Elena&quot;</span>,
+    <span class="hljs-string">&quot;Edad&quot;</span>: <span class="hljs-number">26</span>,
+    <span class="hljs-string">&quot;Aficiones&quot;</span>: [
+      <span class="hljs-string">&quot;M&#xFA;sica&quot;</span>,
+      <span class="hljs-string">&quot;Cine&quot;</span>
+    ],
+    <span class="hljs-string">&quot;Residencia&quot;</span>: <span class="hljs-string">&quot;Madrid&quot;</span>
+  },
+  {
+    <span class="hljs-string">&quot;Nombre&quot;</span>: <span class="hljs-string">&quot;Luis&quot;</span>,
+    <span class="hljs-string">&quot;Edad&quot;</span>: <span class="hljs-number">31</span>,
+    <span class="hljs-string">&quot;Aficiones&quot;</span>: [
+      <span class="hljs-string">&quot;Teatro&quot;</span>,
+      <span class="hljs-string">&quot;Cine&quot;</span>,
+      <span class="hljs-string">&quot;F&#xFA;tbol&quot;</span>
+    ],
+    <span class="hljs-string">&quot;Residencia&quot;</span>: <span class="hljs-string">&quot;Madrid&quot;</span>
+  }
+]
+}
+</code></pre>
+</li>
+<li>En muchas ocasiones se trabaja con archivos JSON donde todos los espacios y saltos de l&#xED;nea han sido eliminados buscando ocupar el m&#xED;nimo espacio posible. Esta t&#xE9;cnica se llama &#x201C;minificado&#x201D;. Minificar es conseguir que un fichero sea menos pesado modificando 
+ciertos elementos: espacios innecesarios, saltos de l&#xED;nea, tabulaciones, comentarios, etc.<pre><code class="lang-json">{<span class="hljs-string">&quot;responsable&quot;</span>:{<span class="hljs-string">&quot;Nombre&quot;</span>:<span class="hljs-string">&quot;Juan&quot;</span>,<span class="hljs-string">&quot;Edad&quot;</span>:<span class="hljs-number">28</span>,<span class="hljs-string">&quot;Aficiones&quot;</span>:[<span class="hljs-string">&quot;M&#xFA;sica&quot;</span>,<span class="hljs-string">&quot;Cine&quot;</span>,<span class="hljs-string">&quot;Tenis&quot;</span>],
+<span class="hljs-string">&quot;Residencia&quot;</span>:<span class="hljs-string">&quot;Madrid&quot;</span>},<span class="hljs-string">&quot;empleados&quot;</span>:[{<span class="hljs-string">&quot;Nombre&quot;</span>:<span class="hljs-string">&quot;Elena&quot;</span>,<span class="hljs-string">&quot;Edad&quot;</span>:<span class="hljs-number">26</span>,
+<span class="hljs-string">&quot;Aficiones&quot;</span>:[<span class="hljs-string">&quot;M&#xFA;sica&quot;</span>,<span class="hljs-string">&quot;Cine&quot;</span>],<span class="hljs-string">&quot;Residencia&quot;</span>:<span class="hljs-string">&quot;Madrid&quot;</span>},{<span class="hljs-string">&quot;Nombre&quot;</span>:<span class="hljs-string">&quot;Luis&quot;</span>,<span class="hljs-string">&quot;Edad&quot;</span>:<span class="hljs-number">31</span>,
+<span class="hljs-string">&quot;Aficiones&quot;</span>:[<span class="hljs-string">&quot;Teatro&quot;</span>,<span class="hljs-string">&quot;Cine&quot;</span>,<span class="hljs-string">&quot;F&#xFA;tbol&quot;</span>],<span class="hljs-string">&quot;Residencia&quot;</span>:<span class="hljs-string">&quot;Madrid&quot;</span>}]}
+</code></pre>
+</li>
 </ul>
-<p>Tambi&#xE9;n te ofrece la opci&#xF3;n de registrarte con una cuenta de GitHub si ya dispones de una.</p>
+</blockquote>
 
                                 
                                 </section>
@@ -494,12 +535,12 @@
 
             
                 
-                <a href="part1.html" class="navigation navigation-prev " aria-label="Previous page: ¿Qué es?">
+                <a href="../node_js/part3.html" class="navigation navigation-prev " aria-label="Previous page: Comprobación npm">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="part3.html" class="navigation navigation-next " aria-label="Next page: Markdown">
+                <a href="part1.html" class="navigation navigation-next " aria-label="Next page: ¿Qué es un Json?">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -510,7 +551,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Utilización","level":"1.2.2","depth":2,"next":{"title":"Markdown","level":"1.2.3","depth":2,"path":"capitulos/gitbook/part3.md","ref":"capitulos/gitbook/part3.md","articles":[]},"previous":{"title":"¿Qué es?","level":"1.2.1","depth":2,"path":"capitulos/gitbook/part1.md","ref":"capitulos/gitbook/part1.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":">=3.0.0"},"file":{"path":"capitulos/gitbook/part2.md","mtime":"2017-02-18T15:31:24.823Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-18T19:37:59.257Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Json","level":"1.7","depth":1,"next":{"title":"¿Qué es un Json?","level":"1.7.1","depth":2,"path":"capitulos/json/part1.md","ref":"capitulos/json/part1.md","articles":[]},"previous":{"title":"Comprobación npm","level":"1.6.3","depth":2,"path":"capitulos/node_js/part3.md","ref":"capitulos/node_js/part3.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":">=3.0.0"},"file":{"path":"capitulos/json/part1.md","mtime":"2017-02-18T19:37:37.875Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-18T19:37:59.257Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

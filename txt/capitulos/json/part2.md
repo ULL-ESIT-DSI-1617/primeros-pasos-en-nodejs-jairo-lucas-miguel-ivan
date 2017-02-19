@@ -97,7 +97,7 @@ Algunos atributos para la configuracion son los siguiente.
 > Siguiente cuadro es una archivo de ejemplo de nueestro ahrchivo book.
 > 
 
-> Ejemplo de la ultilizaicon de nuestro plugin
+> Ejemplo de la ultilizaicon de plugin que se han puesto
 ```json
 {
   "root": "txt",

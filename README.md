@@ -78,7 +78,6 @@ Tarea por defecto donde se ejecutará el deploy y el build solamente
 
 **Configurar clave si no estaba previamente configurada en el Iaas**
 
-    
 * 1.Situarse en la carpeta ssh
 
 * 2.Generar la clave ssh-keygen -t rsa

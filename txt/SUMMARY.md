@@ -21,14 +21,20 @@ This is the summary of my book.
 
 * [Pandoc](capitulos/pandoc/part1.md)
     * [¿Qué es?](capitulos/pandoc/part1.md)
-    * [Instalacion](capitulos/pandoc/part2.md)
+    * [Instalación](capitulos/pandoc/part2.md)
     * [Utilizacion](capitulos/pandoc/part3.md)
 
 * [NodeJS](capitulos/node_js/part1.md)
 
     * [¿Qué es?](capitulos/node_js/part1.md)
-    * [Instalacion](capitulos/node_js/part2.md)
+    * [Instalación](capitulos/node_js/part2.md)
     * [Comprobación npm](capitulos/node_js/part3.md)
+
+* [Gulp](capitulos/gulp/part1.md)
+
+    * [¿Qué es?](capitulos/gulp/part1.md)
+    * [Instalación](capitulos/gulp/part2.md)
+    * [Funcionamiento](capitulos/gulp/part3.md)
 
 
 

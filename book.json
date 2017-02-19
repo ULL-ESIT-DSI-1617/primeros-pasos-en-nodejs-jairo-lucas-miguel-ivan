@@ -1,5 +1,9 @@
 {
   "root": "txt",
   "gitbook": ">=3.0.0",
+<<<<<<< HEAD
   "plugins": ["youtube","bootstrap-callout"]
+=======
+  "plugins": ["emphasize", "bootstrap-callout","page-toc" ]
+>>>>>>> 7f2da9a0aae4860b7e2b9b4c11527b825ed8f5f6
 }

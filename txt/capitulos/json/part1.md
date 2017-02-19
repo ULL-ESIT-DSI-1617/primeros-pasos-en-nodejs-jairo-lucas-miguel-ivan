@@ -3,7 +3,9 @@
 * JSON es un formato estándar para datos.
 * Destaca por ser ligero y  rápido (por tanto muy útil para desarrollos web).
 * Los datos en formato JSON pueden ser utilizados por prácticamente todos los lenguajes de programación (como Java, C#, C, C++, PHP, JavaScript, Python, etc.). 
-* Una herramienta online para comprobar la sintaxis de estoys archivos ses http://jsonviewer.stack.hu/
+* Una herramienta online para comprobar la sintaxis de estos archivos son:
+    * http://jsonviewer.stack.hu/ 
+    * http://jsonlint.com/
 * Los archivos JSON son simples archivos de texto con extensión json. 
 ```json
 {

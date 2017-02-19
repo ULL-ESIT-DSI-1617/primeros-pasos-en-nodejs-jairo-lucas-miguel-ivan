@@ -9,6 +9,7 @@ lo hemos desplegado al https://iaas.ull.es.
 
 # GULPFILE
 
+
 El gulpfile es donde se guardan las tareas que se van a llevar a cabo de un proyecto.
 El fichero gulpfile se divide en dos partes bien diferenciadas
 * Dependencias: donde se llamaran a los plugin que van a ser utilizados para llevar a cabo acciones.

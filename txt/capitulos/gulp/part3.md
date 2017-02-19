@@ -3,7 +3,7 @@ Una vez tengamos correctamente Gulp instalado podemos proceder a usarlo en nuest
 
 > Primero ejecutamos (se supone que se tiene instalado Nodejs):
 
->![](../../imagenes/gulp/npm-init.png)
+> ![](../../imagenes/gulp/npm-init.png)
 
 > Npm nos solicitará los datos de nuestro proyecto, con dichos datos generará el fichero package.json, que se explica en detalle en otro capítulo.
 

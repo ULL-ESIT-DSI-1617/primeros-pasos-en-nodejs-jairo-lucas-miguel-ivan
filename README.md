@@ -8,7 +8,41 @@ el despliegue a GH-PAGES , por otro lado hemos creado un gulpfile para automatiz
 lo hemos desplegado al https://iaas.ull.es.
 
 
+## Despliegue en Iaas
 
+**Conectarse al Iaas**
+```bash 
+    ssh usuario@10.6.129.243
+```
+
+**Configurar clave si no estaba previamente configurada en el Iaas**
+    
+* 1.Situarse en la carpeta ssh
+
+* 2.Generar la clave ssh-keygen -t rsa
+
+* 3.Crear una nueva ssh key en Github y copiar la clave que se genero en el paso anterior
+
+    ![](https://help.github.com/assets/images/help/settings/ssh-key-paste.png)
+
+* 4.En la carpeta ssh crear un fichero llamado config y añadir lo siguiente:
+
+```bash 
+    usuario@ubuntu:~$ cat ~/.ssh/config 
+        Host github.com
+        HostName github.com
+        user git
+        IdentityFile /home/usuario/.ssh/claveiaas
+```
+
+* 5.Clonar repositorio de github en el Iaas ```git clone https://github.com/ULL-ESIT-DSI-1617/primeros-pasos-en-nodejs-jairo-lucas-miguel-ivan.git```
+
+* 6.Entrar en la carpeta clonado y levanar el servidor ```nodejs app.js```
+
+* 7.Ir al navegador y poner la dirección IP y el puerto,en este ejemplo sería así: 
+```
+ 10.6.129.243:8080
+```
 
 ## Enlaces
 

@@ -562,30 +562,38 @@ explicado. Si deceas ver mas informacion pincha <a href="https://docs.npmjs.com/
 <p>Tambi&#xE9;n podemos poner plugin para automatizar o hacer que se vea cosa a nuestro gusto
 Siguiente cuadro es una archivo de ejemplo de nueestro ahrchivo book.</p>
 <p>Ejemplo de la ultilizaicon de nuestro plugin</p>
+<pre><code class="lang-json">{
+  <span class="hljs-string">&quot;root&quot;</span>: <span class="hljs-string">&quot;txt&quot;</span>,
+  <span class="hljs-string">&quot;gitbook&quot;</span>: <span class="hljs-string">&quot;&gt;=3.0.0&quot;</span>,
+  <span class="hljs-string">&quot;plugins&quot;</span>: [<span class="hljs-string">&quot;emphasize&quot;</span>, <span class="hljs-string">&quot;bootstrap-callout&quot;</span>,<span class="hljs-string">&quot;page-toc&quot;</span> ]
+}
+</code></pre>
 <p>Plugins se instalan autom&#xE1;ticamente en GitBook.com . A nivel local, ejecutar 
 <strong>gitbook install</strong> para instalar y preparar todos los plugins para sus libros.</p>
+<p>Ejemplo de ultilizaci&#xF3;n de los plugin</p>
 </blockquote>
-<p>This text is <span class="pg-emphasize pg-emphasize-yellow" style="">highlighted !</span>
-&quot;This text is <span class="pg-emphasize pg-emphasize-yellow" style="">highlighted !</span>&quot;
-This text is <span class="pg-emphasize pg-emphasize-yellow" style="">highlighted with <strong>markdown</strong>!</span></p>
-<p>This text is <span class="pg-emphasize pg-emphasize-green" style="">highlighted in green!</span></p>
-<p>This text is <span class="pg-emphasize pg-emphasize-red" style="">highlighted in red!</span></p>
-<p>This text is <span class="pg-emphasize pg-emphasize-yellow" style="background: #ff0000;">highlighted with a custom color!</span></p>
-<p>asdfa</p>
+<p>[&quot;emphasize&quot;]</p>
+<ul>
+<li>This text is <span class="pg-emphasize pg-emphasize-yellow" style="">highlighted !</span></li>
+<li>This text is <span class="pg-emphasize pg-emphasize-yellow" style="">highlighted with <strong>markdown</strong>!</span></li>
+<li>This text is <span class="pg-emphasize pg-emphasize-green" style="">highlighted in green!</span></li>
+<li>This text is <span class="pg-emphasize pg-emphasize-red" style="">highlighted in red!</span></li>
+<li>This text is <span class="pg-emphasize pg-emphasize-yellow" style="background: #ff0000;">highlighted with a custom color!</span></li>
+</ul>
+<p>[ &quot;bootstrap-callout&quot; ]</p>
 <div class="callout callout-title"><h4 id=""></h4><div><p>Content</p></div></div>
-<p>sdafdf</p>
+<p>type</p>
 <div class="callout callout-type"><h4 id="title">Title</h4><div><p>Content</p></div></div>
-<p>dsafd</p>
-<div class="callout callout-primary"><h4 id="title">Title</h4><div><pre><code>   holaaaa
-</code></pre><p>sdfadsfafasdf</p></div></div>
-<p>dfsa</p>
-<div class="callout callout-success"><h4 id="title">Title</h4><div><p>asdfaf
-sadfasd</p></div></div>
-<p>afsdf</p>
-<div class="callout callout-danger"><h4 id="title">Title</h4><div><p>fdsafsdfdfafasdfasdfdsf</p><h4 id="warningtitle">warning::Title</h4><p>f ffdfadfa</p></div></div>
-<p>sdfafdsfa</p>
-<div class="callout callout-info"><h4 id="title">Title</h4><div><p>asdfasfdfafafaf
-fasdff</p></div></div>
+<p>primary</p>
+<div class="callout callout-primary"><h4 id="title">Title</h4><div></div></div>
+<p>success</p>
+<div class="callout callout-success"><h4 id="title">Title</h4><div></div></div>
+<p>danger</p>
+<div class="callout callout-danger"><h4 id="title">Title</h4><div></div></div>
+<p>warning</p>
+<div class="callout callout-warning"><h4 id="title">Title</h4><div></div></div>
+<p>info</p>
+<div class="callout callout-info"><h4 id="title">Title</h4><div></div></div>
 
                                 
                                 </section>
@@ -629,7 +637,7 @@ fasdff</p></div></div>
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Utilizacin en el github","level":"1.7.2","depth":2,"next":{"title":"Comprobación npm","level":"1.7.3","depth":2,"path":"capitulos/json/part3.md","ref":"capitulos/json/part3.md","articles":[]},"previous":{"title":"¿Qué es un Json?","level":"1.7.1","depth":2,"path":"capitulos/json/part1.md","ref":"capitulos/json/part1.md","articles":[]},"dir":"ltr"},"config":{"plugins":["emphasize","bootstrap-callout","page-toc"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"emphasize":{},"search":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"bootstrap-callout":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":">=3.0.0"},"file":{"path":"capitulos/json/part2.md","mtime":"2017-02-19T20:46:39.539Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-19T20:56:09.479Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Utilizacin en el github","level":"1.7.2","depth":2,"next":{"title":"Comprobación npm","level":"1.7.3","depth":2,"path":"capitulos/json/part3.md","ref":"capitulos/json/part3.md","articles":[]},"previous":{"title":"¿Qué es un Json?","level":"1.7.1","depth":2,"path":"capitulos/json/part1.md","ref":"capitulos/json/part1.md","articles":[]},"dir":"ltr"},"config":{"plugins":["emphasize","bootstrap-callout","page-toc"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"emphasize":{},"search":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"bootstrap-callout":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":">=3.0.0"},"file":{"path":"capitulos/json/part2.md","mtime":"2017-02-19T21:04:30.443Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-19T21:04:40.150Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

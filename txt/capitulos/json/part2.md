@@ -98,52 +98,57 @@ Algunos atributos para la configuracion son los siguiente.
 > 
 
 > Ejemplo de la ultilizaicon de nuestro plugin
-
+```json
+{
+  "root": "txt",
+  "gitbook": ">=3.0.0",
+  "plugins": ["emphasize", "bootstrap-callout","page-toc" ]
+}
+```
 > Plugins se instalan automáticamente en GitBook.com . A nivel local, ejecutar 
 **gitbook install** para instalar y preparar todos los plugins para sus libros.
 
+> Ejemplo de ultilización de los plugin
 
-This text is {% em  %}highlighted !{% endem %}
-"This text is {% em  %}highlighted !{% endem %}"
-This text is {% em %}highlighted with **markdown**!{% endem %}
+["emphasize"]
+* This text is {% em  %}highlighted !{% endem %}
+* This text is {% em %}highlighted with **markdown**!{% endem %}
+* This text is {% em type="green" %}highlighted in green!{% endem %}
+* This text is {% em type="red" %}highlighted in red!{% endem %}
+* This text is {% em color="#ff0000" %}highlighted with a custom color!{% endem %}
 
-This text is {% em type="green" %}highlighted in green!{% endem %}
+[ "bootstrap-callout" ]
 
-This text is {% em type="red" %}highlighted in red!{% endem %}
-
-This text is {% em color="#ff0000" %}highlighted with a custom color!{% endem %}
-
-
-asdfa
 > #### Title
 >
 > Content
 
-sdafdf
+type
 > #### type::Title
 >
 > Content
 
-dsafd
+primary
 > #### primary::Title
->        holaaaa
-> sdfadsfafasdf
+>       
+> 
 
-dfsa
+success
 > #### success::Title
-> asdfaf
-> sadfasd
+> 
+> 
 
-afsdf
+danger
 > #### danger::Title
->fdsafsdfdfafasdfasdfdsf
+>
 >
 
+warning
 > #### warning::Title
->f ffdfadfa
+>
 >
 
-sdfafdsfa
+info
 > #### info::Title
->asdfasfdfafafaf
->fasdff
+>
+>

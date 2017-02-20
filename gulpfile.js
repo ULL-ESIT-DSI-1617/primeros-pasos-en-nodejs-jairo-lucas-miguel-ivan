@@ -10,7 +10,7 @@ gulp.task('gh-pages', function() {
 });
 
 gulp.task('build',shell.task([
-  'npm run build'
+  'gitbook install','npm run build'
 
 ]));
 

@@ -8,7 +8,7 @@
   los mas importante:
   
 > * **name :** Aquí ponemos el nombre del proyecto.
-* **versiòn :**  Aquí ponemos la versión.
+* **versión :**  Aquí ponemos la versión.
 * **Descripción :** Breve descripción del proyecto.
 * **scripts :** Donde hay procesos automatizado para el correcta organización del sistema.
 * **repositorio :** Especificar el lugar donde vive su código.Esto es útil para las personas que quieran contribuir.

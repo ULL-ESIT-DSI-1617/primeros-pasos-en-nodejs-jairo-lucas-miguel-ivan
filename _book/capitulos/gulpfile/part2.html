@@ -607,39 +607,17 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h3 id="descripci&#xF3;n-fichero-gulpfile">Descripci&#xF3;n Fichero Gulpfile</h3>
+                                <blockquote>
+<h3 id="descripci&#xF3;n-fichero-gulpfile">Descripci&#xF3;n Fichero Gulpfile</h3>
 <ul>
-<li>Dependencia  </li>
+<li>Dependencia<br>Dependencia para llamar a gulp<br>var gulp = require(&quot;gulp&quot;);<br>Dependencia para llamar al m&#xE9;todo shell<br>var shell = require(&apos;gulp-shell&apos;);<br>Dependencia para llamar al plugin ghpages<br>var ghPages = require(&apos;gulp-gh-pages&apos;);  </li>
+<li>Tareas<br>Se llama al plugin gh-pages y se hace un recorrido en profundida (/<strong>/*) para construir las gh-pages (simplifica el proceso de despliegue de gh-pages) es decir  Todos los archivos y directorios dentro de / gh-pages  ser&#xE1;n enviados a la rama gh-pages aunque podr&#xED;a ser cambiada a master<br>gulp.task(&apos;gh-pages&apos;, function() {<br>return gulp.src(&apos;./gh-pages/</strong>/*&apos;)<br>.pipe(ghPages());<br>});  </li>
 </ul>
-<p>Dependencia para llamar a gulp  </p>
-<blockquote>
-<p>var gulp = require(&quot;gulp&quot;);  </p>
-</blockquote>
-<p>Dependencia para llamar al m&#xE9;todo shell  </p>
-<blockquote>
-<p>var shell = require(&apos;gulp-shell&apos;);  </p>
-</blockquote>
-<p>Dependencia para llamar al plugin ghpages  </p>
-<blockquote>
-<p>var ghPages = require(&apos;gulp-gh-pages&apos;);  </p>
-</blockquote>
-<ul>
-<li>Tareas<br>Se llama al plugin gh-pages y se hace un recorrido en profundida (/<em>*/</em>) para construir las gh-pages (simplifica el proceso de despliegue de gh-pages) es decir  Todos los archivos y directorios dentro de / gh-pages  ser&#xE1;n enviados a la rama gh-pages aunque podr&#xED;a ser cambiada a master  </li>
-</ul>
-<blockquote>
-<p>gulp.task(&apos;gh-pages&apos;, function() {<br>  return gulp.src(&apos;./gh-pages/<em>*/</em>&apos;)<br>  .pipe(ghPages());<br>});  </p>
-</blockquote>
 <p>Tarea que se utiliza para construir el libro por media de l&#xED;nea de comandos con los comandos de boilerplate (# npm run generate-gitbook &amp;&amp; npm run generate-wiki)  </p>
-<blockquote>
 <p>gulp.task(&apos;build&apos;,shell.task([<br>&apos;npm run build&apos;<br>]));  </p>
-</blockquote>
 <p>Tarea que se utiliza para desplegar el libro por media de l&#xED;nea de comandos con los comandos de boilerplate (# npm run deploy-gitbook &amp;&amp; npm run deploy-wiki)  </p>
-<blockquote>
 <p>gulp.task(&apos;deploy&apos;,shell.task([<br>  &apos;npm run deploy&apos;<br>]));  </p>
-</blockquote>
-<p>Tarea que se utiliza para montar el servidor de prueba del libro  por media de l&#xED;nea de comandos  </p>
-<blockquote>
-<p>gulp.task(&apos;serve&apos;,shell.task([<br>  &apos;gitbook serve&apos;<br>]));<br>Tarea por defecto donde se ejecutar&#xE1; el deploy y el build solamente<br>gulp.task(&apos;default&apos;, [ &apos;deploy&apos;,&apos;build&apos; ]);</p>
+<p>Tarea que se utiliza para montar el servidor de prueba del libro  por media de l&#xED;nea de comandos<br>gulp.task(&apos;serve&apos;,shell.task([<br>  &apos;gitbook serve&apos;<br>]));<br>Tarea por defecto donde se ejecutar&#xE1; el deploy y el build solamente<br>gulp.task(&apos;default&apos;, [ &apos;deploy&apos;,&apos;build&apos; ]);</p>
 </blockquote>
 
                                 
@@ -684,7 +662,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Descripción Fichero Gulpfile","level":"7.1.2","depth":2,"next":{"title":"Json","level":"8.1","depth":1,"path":"capitulos/json/part1.md","ref":"capitulos/json/part1.md","articles":[{"title":"¿Qué es un Json?","level":"8.1.1","depth":2,"path":"capitulos/json/part1.md","ref":"capitulos/json/part1.md","articles":[]},{"title":"Utilizacin en el github","level":"8.1.2","depth":2,"path":"capitulos/json/part2.md","ref":"capitulos/json/part2.md","articles":[]}]},"previous":{"title":"Introductión Gulpfile","level":"7.1.1","depth":2,"path":"capitulos/gulpfile/part1.md","ref":"capitulos/gulpfile/part1.md","articles":[]},"dir":"ltr"},"config":{"plugins":["emphasize","bootstrap-callout","page-toc","youtube"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"emphasize":{},"youtube":{},"search":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"bootstrap-callout":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":">=3.0.0"},"file":{"path":"capitulos/gulpfile/part2.md","mtime":"2017-02-20T01:33:25.451Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-20T01:33:31.305Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Descripción Fichero Gulpfile","level":"7.1.2","depth":2,"next":{"title":"Json","level":"8.1","depth":1,"path":"capitulos/json/part1.md","ref":"capitulos/json/part1.md","articles":[{"title":"¿Qué es un Json?","level":"8.1.1","depth":2,"path":"capitulos/json/part1.md","ref":"capitulos/json/part1.md","articles":[]},{"title":"Utilizacin en el github","level":"8.1.2","depth":2,"path":"capitulos/json/part2.md","ref":"capitulos/json/part2.md","articles":[]}]},"previous":{"title":"Introductión Gulpfile","level":"7.1.1","depth":2,"path":"capitulos/gulpfile/part1.md","ref":"capitulos/gulpfile/part1.md","articles":[]},"dir":"ltr"},"config":{"plugins":["emphasize","bootstrap-callout","page-toc","youtube"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"emphasize":{},"youtube":{},"search":{},"page-toc":{"position":"before-first","selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"bootstrap-callout":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":">=3.0.0"},"file":{"path":"capitulos/gulpfile/part2.md","mtime":"2017-02-20T01:42:14.903Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-20T01:42:22.953Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

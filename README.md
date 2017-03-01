@@ -40,7 +40,8 @@ lo hemos desplegado al https://iaas.ull.es.
 
 * 7.Ir al navegador y poner la dirección IP y el puerto,en este ejemplo sería así: 
 ```
- 10.6.129.243:8080
+ 10.6.129.243:8080 iaas de Lucas
+ 10.6.128.175:8080 iaas de Iván
 ```
 
 ## Enlaces
